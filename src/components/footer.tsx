@@ -1,10 +1,10 @@
+import { MyLinks } from "./linksBar";
 
 const Footer = () => {
   return (
     <section>
-      
-      <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center text-xs">
-        By Jarrod Cruz 
+      <div className="bottom-0  flex h-48 w-full items-end justify-center text-sm">
+        <h1 className="text-sm">By Jarrod Cruz</h1>
       </div>
     </section>
   );

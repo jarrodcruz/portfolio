@@ -8,7 +8,6 @@ import ContactMe from "@/components/contactMe";
 export default function Home() {
   return (
     <main className="">
-      <div>This is just empty for now, will add more later</div>
       <Hero/>
       <About/>
       <Experience/>

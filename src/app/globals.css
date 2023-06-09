@@ -16,15 +16,6 @@
   }
 }
 
-/* body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
 body {
   background-color: #1d1e20;
   color: #dadadb;
@@ -33,13 +24,56 @@ body {
 /* general sections*/
 .section-header {
   @apply text-4xl /* justify-center text-center */;
-  padding-bottom: 2rem;
+  border-bottom: #dadadb24;
+  border-style: ridge;
+}
+/*hero*/
+.hero-container {
+  padding: 2rem;
+  font-family: monospace;
+}
+.hero-container .box1 {
+  font-size: xx-large;
+  transition: all 1s ease-in-out;
+}
+.hero-container .box2 {
+  font-size: xx-large;
+  transition: all 1s ease-in-out;
+}
+.hero-container .box3 {
+  font-size: xx-large;
+  transition: all 1s ease-in-out;
+}
+.hero-container .adjective {
+  @apply text-7xl;
+}
+.hero-container .box1:hover {
+  background-color: rgb(140, 174, 220);
+}
+.hero-container .box2:hover {
+  background-color: rgba(243, 176, 52, 0.646);
+}
+.hero-container .box3:hover {
+  background-color: rgba(243, 65, 52, 0.599);
+}
+/* about me*/
+.about-container {
+  padding: 2rem;
+  font-family: monospace;
+}
+.about-container .box {
+  block-size: fit-content;
+  font-size: x-large;
 }
 /* experience */
 .experience-container {
   padding: 2rem;
+  font-family: monospace;
+  justify-content: center;
+  font-size: larger;
 }
 .experience-container .experience-grid {
+  padding: 2rem;
   display: grid;
   @apply space-y-8;
   font-family: monospace;
@@ -77,8 +111,10 @@ body {
 
 /*skills */
 .skills-container {
+  cursor: context-menu;
   padding: 2rem;
   font-family: monospace;
+  font-size: larger;
 }
 
 .skills-container .grid-skills {

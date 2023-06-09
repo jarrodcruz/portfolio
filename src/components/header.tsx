@@ -3,9 +3,11 @@ import { MyLinks } from "./linksBar";
 
 const Header = () => {
   return (
-    <section className="mb-8">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm ">
+    <section className="top-0 mb-8 ">
+      <div className="absolute top-0 left-0 font-mono text-lg ">
         <Link href="/">Jarrod Cruz&apos;s Portfolio</Link>
+      </div>
+      <div className="absolute top-0 font-mono text-2xl right-0">
         <MyLinks />
       </div>
     </section>
