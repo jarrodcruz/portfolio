@@ -21,7 +21,7 @@ const Skills = () => {
   return (
     <div className="skills-container  ">
       <h1 className="section-header">Skills</h1>
-      <p> Here's some of the technologies I use, any that are not listed I am quick to learn {":)"}</p>
+      <p> Here&apos;s some of the technologies I use, any that are not listed I am quick to learn {":)"}</p>
       <h1 className="skills-header">Programming Languages</h1>
       <p>
         I am very comfortable and proficient using all of these languages, but for projects I
@@ -45,7 +45,7 @@ const Skills = () => {
       </div>
       <h1 className="skills-header">Full Stack Development</h1>
       <p>
-        I'm most comfortable with typescript and react frameworks. For databases
+        I&apos;m most comfortable with typescript and react frameworks. For databases
         I am most familiar with PostgreSQL and SQL. I use these to build
         client-side applications, and develop the back-end with node. I am also
         familiar with NextJS and GatsbyJs.
