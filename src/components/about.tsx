@@ -2,7 +2,8 @@ const About = () => {
   return (
     <div>
       <div>
-        <h1 className="section-header"> About me</h1>
+        <h1 className="section-header
+        "> About me</h1>
       </div>
     </div>
   );

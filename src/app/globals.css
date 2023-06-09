@@ -37,12 +37,16 @@ body {
 }
 /* experience */
 .experience-container {
-  @apply space-y-8;
   padding: 2rem;
-  font-family: monospace;
 }
-.experience-container .experience-node {
-  width: 70%;
+.experience-container .experience-grid {
+  display: grid;
+  @apply space-y-8;
+  font-family: monospace;
+  justify-content: center;
+}
+
+.experience-container .experience-grid .experience-node {
   block-size: fit-content;
   background-color: #417d5c5c;
   color: #c8cfd3;
@@ -52,30 +56,25 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 1s ease-in-out;
   cursor: context-menu;
-  
 }
 
-.experience-container .experience-node:hover {
+.experience-container .experience-grid .experience-node:hover {
   background-color: #377d47e1;
   border-radius: 10px;
 }
-.experience-container .experience-node .position-title {
+.experience-container .experience-grid .experience-node .position-title {
   font-size: x-large;
   font-weight: bolder;
 }
-.experience-container .experience-node .position-company {
+.experience-container .experience-grid .experience-node .position-company {
   font-size: large;
 }
 
-.experience-container .experience-node .position-duration {
+.experience-container .experience-grid .experience-node .position-duration {
   font-size: medium;
   font-weight: lighter;
 }
-.experience-container .experience-header {
-  font-size: large;
-  justify-content: center;
-  padding-bottom: 20px;
-}
+
 /*skills */
 .skills-container {
   padding: 2rem;
