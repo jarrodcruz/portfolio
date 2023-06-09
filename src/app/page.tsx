@@ -1,12 +1,20 @@
 import Skills from "@/components/skills";
-import Link from "next/link";
+import Experience from "@/components/experiences";
+import About from "@/components/about";
+import Hero from "@/components/hero";
+import Projects from "@/components/projects";
+import ContactMe from "@/components/contactMe";
 
 export default function Home() {
   return (
     <main className="">
       <div>This is just empty for now, will add more later</div>
-      <Link href="/about">About me</Link>
+      <Hero/>
+      <About/>
+      <Experience/>
       <Skills/>
+      <Projects/>
+      <ContactMe/>
     </main>
   );
 }

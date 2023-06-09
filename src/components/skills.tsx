@@ -19,7 +19,7 @@ import {
 const Skills = () => {
   return (
     <div className="skills-container  ">
-      <h1 className="text-4xl justify-center text-center">Skills</h1>
+      <h1 className="section-header">Skills</h1>
       <h1 className="skills-header">Programming Languages</h1>
 
       <div className="grid-skills basis-1/3">
