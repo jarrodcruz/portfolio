@@ -1,5 +1,5 @@
 import * as RemixIcons from "react-icons/ri";
-import { MY_LINKS } from "./linksData";
+import { myLinks } from "./linksData";
 
 const DynamicRemixIcon = ({
   name,
@@ -19,7 +19,7 @@ const DynamicRemixIcon = ({
 
 export const MyLinks = () => (
   <div className="flex flex-row">
-    {MY_LINKS.map(({ name, href, iconName, lastIcon }) => (
+    {myLinks.map(({ name, href, iconName, lastIcon }) => (
       <a
         key={name}
         className="hover:text-gray-500 duration-200"

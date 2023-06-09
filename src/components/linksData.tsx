@@ -6,7 +6,7 @@ interface LinksDataProps {
 }
 
 
-export const MY_LINKS: LinksDataProps[] = [
+export const myLinks: LinksDataProps[] = [
   {
     name: "Github",
     href: "https://github.com/jarrodcruz",

@@ -26,6 +26,7 @@ body {
   @apply text-4xl /* justify-center text-center */;
   border-bottom: #dadadb24;
   border-style: ridge;
+  margin-bottom: 1rem;
 }
 /*hero*/
 .hero-container {
@@ -149,4 +150,38 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 2s ease-in-out 0.5s;
   cursor: context-menu;
+}
+/* projects */
+.project-container {
+  padding: 2rem ;
+}
+.project-container .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.project-container .grid .card {
+ 
+  background-color: #417d5c5c;
+  color: #c8cfd3;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 1s ease-in-out;
+  cursor: context-menu;
+}
+.project-container .grid .card:hover {
+  background-color: #377d47e1;
+  border-radius: 10px;
+}
+
+.project-container .grid .card .title {
+  font-size: x-large;
+}
+.project-container .grid .card .desc {
+  font-size: medium;
+}
+/* contact Me */
+.contact-container {
+  padding: 2rem;
 }
