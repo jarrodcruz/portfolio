@@ -42,7 +42,7 @@ body {
   font-family: monospace;
 }
 .experience-container .experience-node {
-  width: fit-content;
+  width: 70%;
   block-size: fit-content;
   background-color: #417d5c5c;
   color: #c8cfd3;
