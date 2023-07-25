@@ -21,13 +21,17 @@ const Skills = () => {
   return (
     <div className="skills-container  ">
       <h1 className="section-header">Skills</h1>
-      <p> Here&apos;s some of the technologies I use, any that are not listed I am quick to learn {":)"}</p>
+      <p>
+        {" "}
+        Here&apos;s some of the technologies I use, any that are not listed I am
+        quick to learn {":)"}
+      </p>
       <h1 className="skills-header">Programming Languages</h1>
       <p>
-        I am very comfortable and proficient using all of these languages, but for projects I
-        tend to gravitate to specific ones depending on what I want my project
-        to achieve. For ML/DS projects I use python. For web applications I use
-        the technologies listed in the full stack section.
+        I am very comfortable and proficient using all of these languages, but
+        for projects I tend to gravitate to specific ones depending on what I
+        want my project to achieve. For ML/DS projects I use python. For web
+        applications I use the technologies listed in the full stack section.
       </p>
       <div className="grid-skills basis-1/3">
         <div className="skill-card ">
@@ -45,10 +49,10 @@ const Skills = () => {
       </div>
       <h1 className="skills-header">Full Stack Development</h1>
       <p>
-        I&apos;m most comfortable with typescript and react frameworks. For databases
-        I am most familiar with PostgreSQL and SQL. I use these to build
-        client-side applications, and develop the back-end with node. I am also
-        familiar with NextJS and GatsbyJs.
+        I&apos;m most comfortable with typescript and react frameworks. For
+        databases I am most familiar with PostgreSQL and SQL. I use these to
+        build client-side applications, and develop the back-end with node. I am
+        also familiar with NextJS and GatsbyJs.
       </p>
       <div className="grid-skills basis-1/3">
         <div className="skill-card ">
@@ -91,7 +95,7 @@ const Skills = () => {
       <h1 className="skills-header"> Machine Learning</h1>
       <p>
         In my projects I use common packages such as numpy, pandas, tensorflow,
-        and scikit-learn. For creating data visualizations I use plotly.I also
+        and scikit-learn. For creating data visualizations I use plotly. I also
         am fluent in R, where I have built Data Analysis projects and am
         familiar with some of their machine learning packages.
       </p>

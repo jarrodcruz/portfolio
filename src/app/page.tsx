@@ -8,12 +8,12 @@ import ContactMe from "@/components/contactMe";
 export default function Home() {
   return (
     <main className="">
-      <Hero/>
-      <About/>
-      <Experience/>
-      <Skills/>
-      <Projects/>
-      <ContactMe/>
+      <Hero />
+      <About />
+      <Experience />
+      <Projects />
+      <Skills />
+      <ContactMe />
     </main>
   );
 }
