@@ -14,12 +14,12 @@ const Experience = () => {
             for clients to search and view the data for their military project.
           </p>
           <p>
-            Successfully deployed 400+ unique pages with next.ns' static site
+            Successfully deployed 400+ unique pages with next.js static site
             generation.
           </p>
           <p>
             Implemented unit testing with jest to guaruntee successful
-            deployment of 400+ unique pages with next.ns' static site
+            deployment of 400+ unique pages with next.js static site
             generation.
           </p>
           <p>
