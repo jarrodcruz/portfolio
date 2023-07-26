@@ -20,6 +20,8 @@ body {
   background-color: #1d1e20;
   color: #dadadb;
   font-family: monospace;
+  justify-content: center;
+  align-items: center;
 }
 /* general sections*/
 .section-header {
