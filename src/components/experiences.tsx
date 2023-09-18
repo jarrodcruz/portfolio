@@ -18,7 +18,7 @@ const Experience = () => {
             generation.
           </p>
           <p>
-            Implemented unit testing with jest to guaruntee successful
+            Implemented unit testing with jest to guarantee successful
             deployment of 400+ unique pages with next.js static site
             generation.
           </p>
