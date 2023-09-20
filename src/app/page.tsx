@@ -4,6 +4,7 @@ import About from "@/components/about";
 import Hero from "@/components/hero";
 import Projects from "@/components/projects";
 import ContactMe from "@/components/contactMe";
+import Resume from "@/components/resume";
 
 export default function Home() {
   return (

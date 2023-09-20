@@ -10,11 +10,10 @@ const Experience = () => {
           </h2>
           <h3 className="position-duration">May 2023 - Present</h3>
           <p>
-            Developing a full-stack web application that functions as a library
-            for clients to search and view the data for their military project.
+            Developing a military project manager application. Emphasis on front end development implementing reusable components.
           </p>
           <p>
-            Successfully deployed 400+ unique pages with next.js static site
+            Successfully generated 400+ unique pages with next.js static site
             generation.
           </p>
           <p>
