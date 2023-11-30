@@ -14,7 +14,7 @@ const Experience = () => {
           </p>
           <p>
             Successfully generated 400+ unique pages with next.js static site
-            generation.
+            generation, each page representing a unique military project.
           </p>
           <p>
             Implemented unit testing with jest to guarantee successful
@@ -27,7 +27,7 @@ const Experience = () => {
           </p>
           <p className="text-xs">
             Skills: Typescript, Gitlab, Node.JS, Next.JS, Docker, SQL, Microsoft
-            SQL Server
+            SQL Server Management Studio (SSMS)
           </p>
         </div>
 
