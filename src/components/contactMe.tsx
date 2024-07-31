@@ -8,7 +8,13 @@ const ContactMe = () => {
       </div>
       <h1> Here are some of my links</h1>
       <MyLinks />
-      <h1> Feel free to send me an email at: jarrodsmail72@gmail.com</h1>
+      <h1>
+        {" "}
+        Feel free to send me an email at:{" "}
+        <p>
+          <a href="mailto:jarrodsmail72@gmail.com">jarrodsmail72@gmail.com</a>
+        </p>
+      </h1>
     </div>
   );
 };
