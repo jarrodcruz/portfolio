@@ -23,9 +23,8 @@ const Experience = () => {
             of different MLOps pipelines.
           </li>
           <li>
-            Developed an NLP and Computer Vision company tool to determine
-            similarity score of engineering diagrams, achieving an initial F1
-            Score of 75%.
+            Developed a LLM and Computer Vision company tool to determine
+            similarity score of engineering diagrams.
           </li>
           <li>
             Mentored and guided high school interns on NLP and computer vision
