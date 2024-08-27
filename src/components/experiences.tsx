@@ -4,11 +4,36 @@ const Experience = () => {
       <h1 className="section-header">Experience</h1>
       <div className="experience-grid">
         <div className="experience-node">
+          <h1 className="position-title"> Data Science Intern</h1>
+          <h2 className="position-company">
+            Honeywell Aerospace Corporate Headquarters
+          </h2>
+          <h3 className="position-duration">Aug 2024 - Present</h3>
+          <li>
+            Implementing and improving a series of machine learning models for
+            quarterly forecasting using Python and scikit-learn.
+          </li>
+          <li>
+            Leveraging Spark and Azure Databricks to process and analyze large
+            datasets used for machine learning tasks.
+          </li>
+          <li>
+            Participating in weekly standups with various business groups and
+            company executives to identify and discuss possible data science
+            development opportunities.
+          </li>
+
+          <p className="text-xs">
+            Skills: Python, Bitbucket, Snowflake, Spark, Databricks, SAP HANA,
+            SQL, Microsoft SQL Server Management Studio (SSMS)
+          </p>
+        </div>
+        <div className="experience-node">
           <h1 className="position-title"> AI/ML Engineer Intern</h1>
           <h2 className="position-company">
             Honeywell Aerospace Corporate Headquarters
           </h2>
-          <h3 className="position-duration">May 2024 - Present</h3>
+          <h3 className="position-duration">May 2024 - August 2024</h3>
           <li>
             Designed and implemented a series of machine learning models for
             quarterly forecasting using Python and scikit-learn.
