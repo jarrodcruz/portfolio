@@ -94,13 +94,11 @@ const Skills = () => {
       </div>
       <h1 className="skills-header"> Machine Learning</h1>
       <p>
-        Throughout my work experience I have been exposed to a multitude of
-        various packages and technologies. These tools help with handling big
-        data, and implementing various machine learning algorithms. In my
-        projects I use common packages such as numpy, pandas, tensorflow, and
-        scikit-learn. For creating data visualizations I use plotly. I also am
-        fluent in R, where I have built Data Analysis projects and am familiar
-        with some of their machine learning packages.
+        I am comfortable creating enterprise-scale machine learning models and
+        deploying them into production. From my experience, I have developed
+        multiple projects from ideation into production, and understand the
+        MLOPS lifecycle. I am interested in ensemble learning methods, and
+        creating effective visualizations explaining these models.
       </p>
       <div className="grid-skills basis-1/3">
         <div className="skill-card ">

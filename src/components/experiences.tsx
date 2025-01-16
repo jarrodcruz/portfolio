@@ -10,22 +10,25 @@ const Experience = () => {
           </h2>
           <h3 className="position-duration">Aug 2024 - Present</h3>
           <li>
-            Implementing and improving a series of machine learning models for
-            quarterly forecasting using Python and scikit-learn.
+            Developed and deployed ensemble machine learning models for
+            aerospace catalog pricing optimization.
           </li>
           <li>
-            Leveraging Spark and Azure Databricks to process and analyze large
-            datasets used for machine learning tasks.
+            Designed and implemented big data ETL pipelines to streamline data
+            preprocessing and preparation, reducing processing time by 25%.
           </li>
           <li>
-            Participating in weekly standups with various business groups and
-            company executives to identify and discuss possible data science
-            development opportunities.
+            Engaged with internal stakeholders to define project requirements
+            and align on solutions.
+          </li>
+          <li>
+            Optimized model performance by 35% through conducting feature
+            engineering and Bayesian optimization.
           </li>
 
           <p className="text-xs">
-            Skills: Python, Bitbucket, Snowflake, Spark, Databricks, SAP HANA,
-            SQL, Microsoft SQL Server Management Studio (SSMS)
+            Skills: Python, SQL, Machine learning, Data engineering, Data
+            visualization
           </p>
         </div>
         <div className="experience-node">
