@@ -10,7 +10,7 @@ const Experience = () => {
           </h2>
           <h3 className="position-duration">May 2025 - Current</h3>
           <li>
-            Interdisciplinary role bleding data science, software engineering, and machine learning.
+            Interdisciplinary role blending data science, data engineering, software engineering, and machine learning.
           </li>
           <li>
             Incoming Summer 2025.
