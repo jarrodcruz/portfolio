@@ -4,6 +4,25 @@ const Experience = () => {
       <h1 className="section-header">Experience</h1>
       <div className="experience-grid">
         <div className="experience-node">
+          <h1 className="position-title"> Big Data Intern</h1>
+          <h2 className="position-company">
+            Apple
+          </h2>
+          <h3 className="position-duration">May 2025 - Current</h3>
+          <li>
+            Interdisciplinary role bleding data science, software engineering, and machine learning.
+          </li>
+          <li>
+            Incoming Summer 2025.
+          </li>
+
+
+          <p className="text-xs">
+            Skills: Software engineering, machine learning, data science, data analysis
+          </p>
+        </div>
+        
+        <div className="experience-node">
           <h1 className="position-title"> Data Science Intern</h1>
           <h2 className="position-company">
             Honeywell Aerospace Corporate Headquarters
