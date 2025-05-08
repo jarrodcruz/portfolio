@@ -8,7 +8,7 @@ const Experience = () => {
           <h2 className="position-company">
             Honeywell Aerospace Corporate Headquarters
           </h2>
-          <h3 className="position-duration">Aug 2024 - Present</h3>
+          <h3 className="position-duration">Aug 2024 - May 2025</h3>
           <li>
             Developed and deployed ensemble machine learning models for
             aerospace catalog pricing optimization.
@@ -24,6 +24,9 @@ const Experience = () => {
           <li>
             Optimized model performance by 35% through conducting feature
             engineering and Bayesian optimization.
+          </li>
+          <li>
+            Developed unsupervised machine learning tool for competitor intelligence.
           </li>
 
           <p className="text-xs">
